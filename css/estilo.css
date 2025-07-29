@@ -10,6 +10,10 @@ header, #principal, #second, #contato, #stream {
 }
 
 .link-menu {
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
   color: #fff;
   background-color: #555;
 }
@@ -47,13 +51,12 @@ footer {
 #menu {
   display: flex ;
   flex-direction:row;
-  
+  list-style: none;
 }
 
 header #logo img{
   width: 150px;
 }
-
 
 #principal {
   display: flex;
@@ -100,7 +103,7 @@ header #logo img{
 }
 
 #stream img {
-  width: 1500px;
+  width: 150px;
   height: auto;
   border-radius: 5px;
   object-fit: cover;
