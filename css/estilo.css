@@ -75,6 +75,7 @@ header #logo img{
 #principal figure img {
   width: 300px;
   border-radius: 5px;
+  gap: 100px;
 }
 
 #sec_ctd {
@@ -94,7 +95,7 @@ header #logo img{
   line-height: 1.6;
 }
 
-#stream {
+#second {
   display: flex;
   justify-content: center;
   gap: 60px;
@@ -102,9 +103,17 @@ header #logo img{
   background-color: #fff;
 }
 
-#stream img {
-  width: 150px;
+#second .cartaz. imgs.musica {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#second  img {
+  display: flex;
+  width: 450px;
   height: auto;
   border-radius: 5px;
   object-fit: cover;
+  
 }
