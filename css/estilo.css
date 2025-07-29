@@ -5,7 +5,8 @@ body {
 }
 
 header, #principal, #second, #contato, #stream {
-	
+	display: flex;
+  justify-content: space-around;
 }
 
 .link-menu {
@@ -43,3 +44,64 @@ footer {
   color: #ddd;
 }
 
+#menu {
+  display: flex ;
+  flex-direction:row;
+  
+}
+
+header #logo img{
+  width: 150px;
+}
+
+
+#principal {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px 80px;
+  background-color: #333;
+  color: #ddd;
+}
+
+#principal figure {
+  margin: 0;
+}
+
+#principal figure img {
+  width: 300px;
+  border-radius: 5px;
+}
+
+#sec_ctd {
+  max-width: 600px;
+}
+
+#sec_ctd h1 {
+  display: flex;
+  justify-content: end;
+  font-size: 36px;
+  font-family: 'Amatic SC';
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+#sec_ctd p {
+  line-height: 1.6;
+}
+
+#stream {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 80px;
+  background-color: #fff;
+}
+
+#stream img {
+  width: 1500px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
